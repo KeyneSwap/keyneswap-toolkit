@@ -1,6 +1,6 @@
 /// <reference types="react" />
 declare const MenuButton: import("styled-components").StyledComponent<{
-    <E extends React.ElementType<any> = "button">(props: import("../../../components/Button").ButtonProps<E>): JSX.Element;
+    <E extends import("react").ElementType<any> = "button">(props: import("../../..").ButtonProps<E>): JSX.Element;
     defaultProps: {
         isLoading: boolean;
         external: boolean;
