@@ -1,7 +1,2 @@
-import React from "react";
-interface Props {
-    isDark: boolean;
-    toggleTheme: (isDark: boolean) => void;
-}
-declare const _default: React.NamedExoticComponent<Props>;
+declare const _default: any;
 export default _default;

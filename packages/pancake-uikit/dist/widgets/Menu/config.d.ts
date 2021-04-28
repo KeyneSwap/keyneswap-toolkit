@@ -31,6 +31,7 @@ export declare const links: ({
 } | {
     label: string;
     icon: string;
+    status: LinkStatus;
     items: ({
         label: string;
         href: string;
@@ -42,7 +43,6 @@ export declare const links: ({
     })[];
     calloutClass: string;
     href?: undefined;
-    status?: undefined;
 })[];
 export declare const socials: ({
     label: string;

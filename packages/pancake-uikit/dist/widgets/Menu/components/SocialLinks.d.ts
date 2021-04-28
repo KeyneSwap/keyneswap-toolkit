@@ -1,3 +1,2 @@
-import React from "react";
-declare const _default: React.NamedExoticComponent<{}>;
+declare const _default: any;
 export default _default;

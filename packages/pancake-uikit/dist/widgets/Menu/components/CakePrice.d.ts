@@ -1,6 +1,2 @@
-import React from "react";
-interface Props {
-    cakePriceUsd?: number;
-}
-declare const _default: React.NamedExoticComponent<Props>;
+declare const _default: any;
 export default _default;

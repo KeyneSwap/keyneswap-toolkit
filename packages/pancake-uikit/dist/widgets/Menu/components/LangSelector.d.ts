@@ -1,9 +1,2 @@
-import React from "react";
-import { LangType } from "../types";
-interface Props {
-    currentLang: string;
-    langs: LangType[];
-    setLang: (lang: LangType) => void;
-}
-declare const _default: React.NamedExoticComponent<Props>;
+declare const _default: any;
 export default _default;
